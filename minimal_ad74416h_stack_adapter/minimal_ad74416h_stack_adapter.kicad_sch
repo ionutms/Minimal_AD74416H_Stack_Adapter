@@ -2,9 +2,3527 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 97890391-4941-4ea9-8a11-940f04bee9bb)
+	(uuid "97890391-4941-4ea9-8a11-940f04bee9bb")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "CONNECTORS_CLP-1xx-02-G-D-BE_DATA_BASE:J_CLP-133-02-G-D-BE"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 5.08 44.45 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CLP-133-02-G-D-BE"
+				(at 5.08 -44.45 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "connector_footprints:CLP-133-02-G-D-BE"
+				(at 5.08 -46.99 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/clp_sm.pdf?_gl=1*1y4jlr9*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczNjY4MDQ4OS4xNS4xLjE3MzY2ODEzNzcuNjAuMC4w"
+				(at 5.08 -49.53 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  33 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
+				(at 5.08 -52.07 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Color" "Black"
+				(at 5.08 -54.61 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Contact Plating" "Tin"
+				(at 5.08 -57.15 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Current Rating (A)" "5.2"
+				(at 5.08 -59.69 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CLP-133-02-G-D-BE"
+				(at 5.08 -62.23 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samtec"
+				(at 5.08 -64.77 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mounting Angle" "Vertical"
+				(at 5.08 -67.31 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mounting Style" "Surface Mount"
+				(at 5.08 -69.85 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Number of Rows" "2"
+				(at 5.08 -72.39 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Pin Count" "33"
+				(at 5.08 -74.93 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Pitch (mm)" "1.27"
+				(at 5.08 -77.47 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Series" "CLP-1xx-02-G-D-BE"
+				(at 5.08 -80.01 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Symbol Name" "J_CLP-133-02-G-D-BE"
+				(at 5.08 -82.55 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CLP-133-02-G-D-BE"
+				(at 5.08 -85.09 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rating (V)" "300"
+				(at 5.08 -87.63 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "J_CLP-133-02-G-D-BE_0_0"
+				(pin unspecified line
+					(at -5.08 40.64 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 38.1 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 35.56 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 33.02 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 30.48 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 27.94 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 25.4 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 22.86 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 20.32 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 17.78 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 15.24 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 12.7 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 10.16 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 7.62 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -7.62 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -10.16 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -12.7 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -15.24 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -17.78 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -20.32 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -22.86 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -25.4 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -27.94 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -30.48 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -33.02 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "59"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -35.56 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "61"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -38.1 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "63"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -40.64 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "65"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 40.64 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 38.1 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 35.56 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 33.02 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 30.48 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 27.94 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 25.4 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 22.86 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 20.32 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 17.78 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 15.24 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 12.7 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 10.16 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 7.62 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -10.16 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -12.7 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -15.24 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -17.78 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -20.32 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -22.86 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -25.4 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -27.94 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -30.48 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "58"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -33.02 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "60"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -35.56 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "62"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -38.1 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "64"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -40.64 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "66"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "J_CLP-133-02-G-D-BE_1_0"
+				(rectangle
+					(start -2.54 43.18)
+					(end 2.54 -43.18)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "CONNECTORS_CLP-1xx-02-G-D-BE_DATA_BASE:J_CLP-133-02-G-D-BE")
+		(at 177.8 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43c4a10a-e292-4c84-9246-72ef50a0555c")
+		(property "Reference" "J4"
+			(at 177.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLP-133-02-G-D-BE"
+			(at 177.8 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "connector_footprints:CLP-133-02-G-D-BE"
+			(at 182.88 148.59 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/clp_sm.pdf?_gl=1*1y4jlr9*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczNjY4MDQ4OS4xNS4xLjE3MzY2ODEzNzcuNjAuMC4w"
+			(at 182.88 151.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  33 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
+			(at 182.88 153.67 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Color" "Black"
+			(at 182.88 156.21 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Contact Plating" "Tin"
+			(at 182.88 158.75 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current Rating (A)" "5.2"
+			(at 182.88 161.29 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CLP-133-02-G-D-BE"
+			(at 182.88 163.83 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 182.88 166.37 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Angle" "Vertical"
+			(at 182.88 168.91 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Surface Mount"
+			(at 182.88 171.45 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Number of Rows" "2"
+			(at 182.88 173.99 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "33"
+			(at 182.88 176.53 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pitch (mm)" "1.27"
+			(at 182.88 179.07 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "CLP-1xx-02-G-D-BE"
+			(at 182.88 181.61 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "J_CLP-133-02-G-D-BE"
+			(at 182.88 184.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CLP-133-02-G-D-BE"
+			(at 182.88 186.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 182.88 189.23 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "41"
+			(uuid "fcc796b0-a98b-4cab-8a14-95b3abc6c724")
+		)
+		(pin "12"
+			(uuid "f422466a-9d1d-4f21-9680-8b70737c4e82")
+		)
+		(pin "6"
+			(uuid "c776a11e-3fc8-4dcb-ad15-ce0463606382")
+		)
+		(pin "22"
+			(uuid "7b258982-0f91-4b67-aefd-4473a341909c")
+		)
+		(pin "49"
+			(uuid "6d028db4-e637-46aa-a1b3-730f866ad172")
+		)
+		(pin "29"
+			(uuid "c3ad9dee-72fa-4731-9bbf-f28921e39423")
+		)
+		(pin "5"
+			(uuid "6ad7084a-17c9-4234-a9b7-22ec49fa8b0d")
+		)
+		(pin "26"
+			(uuid "15d0a625-b26b-4377-ab55-6c94ad0cd6f0")
+		)
+		(pin "42"
+			(uuid "3fb7a39a-56d3-4d20-8168-afcf828bd586")
+		)
+		(pin "30"
+			(uuid "8c89e634-75f7-40d0-b288-f58ad1bb7637")
+		)
+		(pin "45"
+			(uuid "58c063ba-993f-4bc7-9a28-616722f00453")
+		)
+		(pin "34"
+			(uuid "98438021-74d1-4935-90cd-a1139d9f7f11")
+		)
+		(pin "24"
+			(uuid "99f93e84-c543-406b-a507-98b0ca3cb51e")
+		)
+		(pin "54"
+			(uuid "ef8a22f3-dc9b-4033-b737-eec229be4346")
+		)
+		(pin "58"
+			(uuid "93c40b20-b93a-42ad-820a-6eb15d3e7ce5")
+		)
+		(pin "36"
+			(uuid "edf61b4a-0aaa-436b-af16-1a14ddcc94e4")
+		)
+		(pin "15"
+			(uuid "95c4412f-9756-458d-9754-76a75346fa95")
+		)
+		(pin "11"
+			(uuid "ad5fb4a7-51d4-44f1-b0a1-be33a6dabe33")
+		)
+		(pin "17"
+			(uuid "1d836c52-5492-42b2-833c-8d317de1d9da")
+		)
+		(pin "33"
+			(uuid "49ac23f2-1368-402e-bddc-647f1803e945")
+		)
+		(pin "35"
+			(uuid "bde51aa9-7f57-4806-91b0-b3f9805fa374")
+		)
+		(pin "9"
+			(uuid "dd021dbc-5828-49cc-befd-dbd40ca1459f")
+		)
+		(pin "51"
+			(uuid "6544b72a-0773-411b-8428-6aa847301997")
+		)
+		(pin "61"
+			(uuid "5c6f785d-7301-4252-b518-7fd88368d2d0")
+		)
+		(pin "59"
+			(uuid "63d5989d-429d-494d-8796-b37c77759ebe")
+		)
+		(pin "57"
+			(uuid "ebb7acea-199a-40b4-b5f7-f8d6d66c6d94")
+		)
+		(pin "23"
+			(uuid "fba712dc-6386-4a0c-a953-9ea63ec2bd22")
+		)
+		(pin "37"
+			(uuid "1d922dda-f014-49a3-bd4a-90404d410b82")
+		)
+		(pin "1"
+			(uuid "3089bb26-efc0-4e0d-95fd-499df01a7745")
+		)
+		(pin "43"
+			(uuid "dd0ee421-0b93-4ff0-a0a8-973fdc9fd92d")
+		)
+		(pin "8"
+			(uuid "fcb63c00-5c15-4081-879a-89e7f0d66d17")
+		)
+		(pin "65"
+			(uuid "e848a56b-6441-402c-bfa1-66941c88e280")
+		)
+		(pin "14"
+			(uuid "1239dcb6-7c39-4336-9e66-40a65d982eb0")
+		)
+		(pin "53"
+			(uuid "05fb7d53-20c0-4484-8289-e3d5b9521c9b")
+		)
+		(pin "27"
+			(uuid "9dec4306-fe16-4c89-9f15-032abee52c30")
+		)
+		(pin "31"
+			(uuid "c4de2d82-c7b9-445e-b2e1-6a49be7b40f2")
+		)
+		(pin "16"
+			(uuid "390451f4-5b12-4f87-bba9-aecbb94500c9")
+		)
+		(pin "13"
+			(uuid "13a830d1-1aec-4fec-acd2-f2250fce3603")
+		)
+		(pin "21"
+			(uuid "a233641f-d6ca-40a6-9777-6f0ccc9ae6b6")
+		)
+		(pin "10"
+			(uuid "deaad058-4fe6-437f-82af-2d42d3de5aa9")
+		)
+		(pin "55"
+			(uuid "296d9103-062d-444a-abd8-2be3e0257a24")
+		)
+		(pin "25"
+			(uuid "e0f500f2-9757-49b5-b4ac-52e4ab59e182")
+		)
+		(pin "47"
+			(uuid "bef48c77-dce9-4304-9649-1d79b79a1f31")
+		)
+		(pin "7"
+			(uuid "b6a9042e-80a4-426a-b329-19d7ee48cec5")
+		)
+		(pin "19"
+			(uuid "b9f9451a-cb7d-4db8-94f8-df94729d1635")
+		)
+		(pin "39"
+			(uuid "09cc6d14-f2c5-44c1-8986-2d4bac5aea01")
+		)
+		(pin "63"
+			(uuid "f57e5983-a6d3-49d6-ac82-38c8428dc68f")
+		)
+		(pin "3"
+			(uuid "78fbd4f3-4827-4e9f-8378-9a3e8810ce71")
+		)
+		(pin "2"
+			(uuid "7c385049-7be8-4ddc-93ab-8e3c4f2333c4")
+		)
+		(pin "4"
+			(uuid "d64ab050-9e79-476e-b3ac-25e497a682b5")
+		)
+		(pin "18"
+			(uuid "02bcfff6-3deb-41c3-9e6a-f95665039ec8")
+		)
+		(pin "20"
+			(uuid "1c6e8758-6677-4a89-9487-ee9a99a04cea")
+		)
+		(pin "32"
+			(uuid "ae323650-428e-4feb-b02c-af4a21b05cac")
+		)
+		(pin "38"
+			(uuid "a15371d8-e0c6-48a6-bdf3-b15818529189")
+		)
+		(pin "28"
+			(uuid "47363255-4e4d-4f3a-aa11-6f7b56b3c0e1")
+		)
+		(pin "40"
+			(uuid "09642bef-e8d0-4f15-937b-6d0265bf66ff")
+		)
+		(pin "44"
+			(uuid "e160274f-6f0f-4439-8551-debf89e2a9e7")
+		)
+		(pin "46"
+			(uuid "371d260f-f968-4743-ab17-f6c603afaa35")
+		)
+		(pin "48"
+			(uuid "ce091120-4db7-4a00-b4d7-49b5c3b26cdc")
+		)
+		(pin "50"
+			(uuid "cef1365c-ad33-4c3b-b21c-5de57b7fa095")
+		)
+		(pin "52"
+			(uuid "5c146601-d30d-469d-860e-b49c1fb7c4c4")
+		)
+		(pin "56"
+			(uuid "6ff7c3f5-9685-44c8-b125-bd31cee54d9a")
+		)
+		(pin "60"
+			(uuid "4c512525-3f30-45c1-bea5-f550fce57e68")
+		)
+		(pin "64"
+			(uuid "693c72c5-ce5a-4bf4-ac97-d4f9c603a98d")
+		)
+		(pin "62"
+			(uuid "eedfe1dd-c515-4099-a768-d5f8fa72d205")
+		)
+		(pin "66"
+			(uuid "940caf09-38e5-41c0-9531-eff2e2f7f672")
+		)
+		(instances
+			(project "minimal_ad74416h_stack_adapter"
+				(path "/97890391-4941-4ea9-8a11-940f04bee9bb"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CONNECTORS_CLP-1xx-02-G-D-BE_DATA_BASE:J_CLP-133-02-G-D-BE")
+		(at 152.4 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58dbeee9-4fa1-417a-b078-b8d0bc8ea2fe")
+		(property "Reference" "J3"
+			(at 152.4 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLP-133-02-G-D-BE"
+			(at 152.4 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "connector_footprints:CLP-133-02-G-D-BE"
+			(at 157.48 148.59 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/clp_sm.pdf?_gl=1*1y4jlr9*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczNjY4MDQ4OS4xNS4xLjE3MzY2ODEzNzcuNjAuMC4w"
+			(at 157.48 151.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  33 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
+			(at 157.48 153.67 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Color" "Black"
+			(at 157.48 156.21 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Contact Plating" "Tin"
+			(at 157.48 158.75 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current Rating (A)" "5.2"
+			(at 157.48 161.29 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CLP-133-02-G-D-BE"
+			(at 157.48 163.83 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 157.48 166.37 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Angle" "Vertical"
+			(at 157.48 168.91 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Surface Mount"
+			(at 157.48 171.45 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Number of Rows" "2"
+			(at 157.48 173.99 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "33"
+			(at 157.48 176.53 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pitch (mm)" "1.27"
+			(at 157.48 179.07 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "CLP-1xx-02-G-D-BE"
+			(at 157.48 181.61 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "J_CLP-133-02-G-D-BE"
+			(at 157.48 184.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CLP-133-02-G-D-BE"
+			(at 157.48 186.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 157.48 189.23 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "41"
+			(uuid "01a81be8-df17-45ba-a30e-d5ffd46992de")
+		)
+		(pin "12"
+			(uuid "06eaf953-b8cc-4a41-8bc4-4cc1c01670bc")
+		)
+		(pin "6"
+			(uuid "8949bfca-1371-4705-a157-fc5080452bf7")
+		)
+		(pin "22"
+			(uuid "fbffb93a-3c05-4666-b9a2-977eb72bbf0b")
+		)
+		(pin "49"
+			(uuid "363cd379-4680-4c22-9998-d2235f7a7acb")
+		)
+		(pin "29"
+			(uuid "d4fb842e-ec6a-4926-bb63-fcab52171fa6")
+		)
+		(pin "5"
+			(uuid "669df022-ca84-48e1-8dfb-b051552c5562")
+		)
+		(pin "26"
+			(uuid "47be8372-87d2-4d46-bf91-1100daf27f49")
+		)
+		(pin "42"
+			(uuid "6a6416d7-7664-4973-b1e5-6e3aeba0857f")
+		)
+		(pin "30"
+			(uuid "1c405143-f76a-4b1b-b9c3-64d7c494d413")
+		)
+		(pin "45"
+			(uuid "1fba59a2-aaa4-499d-b4c7-a787cda1ad9b")
+		)
+		(pin "34"
+			(uuid "3a7b1573-3d0c-486e-9f2c-7dd6c8ec0c69")
+		)
+		(pin "24"
+			(uuid "375f8856-092b-4485-b62d-6cef76766427")
+		)
+		(pin "54"
+			(uuid "d18eb079-3ec7-493d-8c33-51a5c5ae449e")
+		)
+		(pin "58"
+			(uuid "0943291e-3988-45d3-b623-390de26893ef")
+		)
+		(pin "36"
+			(uuid "c3695967-0fec-4068-b2de-100799ce7ff7")
+		)
+		(pin "15"
+			(uuid "566d0343-8e54-4484-8d9f-10d953343172")
+		)
+		(pin "11"
+			(uuid "3544f9b3-21ec-4377-ae23-e3f04ff36de9")
+		)
+		(pin "17"
+			(uuid "99fb7005-3eb7-47d3-b97b-395a2a872bce")
+		)
+		(pin "33"
+			(uuid "a5ad6f07-678a-4cac-a790-47c372212bba")
+		)
+		(pin "35"
+			(uuid "e7d94d99-a65a-4af8-8b85-f1206d967508")
+		)
+		(pin "9"
+			(uuid "bf9f637d-15d7-410a-8d50-1974c94ae50b")
+		)
+		(pin "51"
+			(uuid "9647b1a6-6fc9-44a9-b286-779103061493")
+		)
+		(pin "61"
+			(uuid "443bc169-28fb-43db-9944-feccc1bcf620")
+		)
+		(pin "59"
+			(uuid "110ca6ef-0fa5-41ab-a224-89ba7d79963d")
+		)
+		(pin "57"
+			(uuid "7fd70d96-6d24-4b39-bdd9-f88cecb73670")
+		)
+		(pin "23"
+			(uuid "8c6a8b71-1d68-4c9b-9530-e54868d7a326")
+		)
+		(pin "37"
+			(uuid "4363c8ef-e75a-4959-a4e0-07a2edb2ec29")
+		)
+		(pin "1"
+			(uuid "d2ceca7a-0ac0-49e4-8f6c-d33c0ec435d4")
+		)
+		(pin "43"
+			(uuid "99280019-b363-4360-9512-284158a7a76d")
+		)
+		(pin "8"
+			(uuid "b3cfa9ba-cbb1-4dd2-836b-9c0839e92571")
+		)
+		(pin "65"
+			(uuid "a9341154-de27-4f5c-864d-d5dacbd84ca7")
+		)
+		(pin "14"
+			(uuid "c20006e7-0958-4a0d-a624-a7d1df37bd13")
+		)
+		(pin "53"
+			(uuid "dc3823c3-4732-46ed-9fde-36de1f21f074")
+		)
+		(pin "27"
+			(uuid "24f149b8-d975-4b9b-935e-74c3d4825a45")
+		)
+		(pin "31"
+			(uuid "4b089239-815c-4d96-bb83-f7a6fb25a8e3")
+		)
+		(pin "16"
+			(uuid "5e45991b-be17-4a2f-9539-6736c1b3224a")
+		)
+		(pin "13"
+			(uuid "3e84c785-fce1-4ed2-90ae-7e90bb05c5d5")
+		)
+		(pin "21"
+			(uuid "219ad0d5-4394-49f9-805b-c575f2d65075")
+		)
+		(pin "10"
+			(uuid "e6269838-fbe1-455f-8cbf-7b3be43b6539")
+		)
+		(pin "55"
+			(uuid "11fb7319-5b0c-40f0-b116-a637ccfab1dd")
+		)
+		(pin "25"
+			(uuid "07d6d264-c82e-4f30-b55d-861c90ba2f6f")
+		)
+		(pin "47"
+			(uuid "976da4fd-1d62-44de-b717-473a18b1f125")
+		)
+		(pin "7"
+			(uuid "8a4488cc-04bc-4218-8d41-d7989e64ab85")
+		)
+		(pin "19"
+			(uuid "db09e59e-85a5-4a48-95dd-98c281630987")
+		)
+		(pin "39"
+			(uuid "6933f8cf-d020-4b6c-8a33-167ded791334")
+		)
+		(pin "63"
+			(uuid "afd98ca1-9263-4c11-8ef0-81abe11faf1b")
+		)
+		(pin "3"
+			(uuid "1ca4a12f-fac9-41c2-85d7-6f2bd5baba19")
+		)
+		(pin "2"
+			(uuid "31d2d48a-885b-45d7-9383-e60ba7d83352")
+		)
+		(pin "4"
+			(uuid "fb9c6b63-bd02-4828-bdf5-cfb95a0b3810")
+		)
+		(pin "18"
+			(uuid "7849deff-0fb7-4010-ac6e-e2b1764049fe")
+		)
+		(pin "20"
+			(uuid "2ff34c31-f575-4bec-b912-037604472c4c")
+		)
+		(pin "32"
+			(uuid "00cf8805-c4c7-4498-82d3-af7c7b727dc8")
+		)
+		(pin "38"
+			(uuid "de99db85-1edb-410b-b337-e373848d4860")
+		)
+		(pin "28"
+			(uuid "c717c88b-fa9f-44e5-83b6-8dfd3f8e00d9")
+		)
+		(pin "40"
+			(uuid "fdb90a09-4ba5-4892-b8d8-300e4eab40fc")
+		)
+		(pin "44"
+			(uuid "7ca6c24c-82ed-421e-9886-ca21399b72f7")
+		)
+		(pin "46"
+			(uuid "741331d8-06c3-4de4-a3c8-379491ad2c17")
+		)
+		(pin "48"
+			(uuid "7981a490-f208-47da-ac67-7245ee50d20c")
+		)
+		(pin "50"
+			(uuid "306cf505-d552-4653-84a6-56a572e1f8c6")
+		)
+		(pin "52"
+			(uuid "0702326d-cc91-4247-b584-0cde53f0db4e")
+		)
+		(pin "56"
+			(uuid "a4ae2bc3-367f-420c-b7ec-fbf4be023963")
+		)
+		(pin "60"
+			(uuid "582cb670-7e45-4290-aa36-6cdb50fb7b98")
+		)
+		(pin "64"
+			(uuid "171a8124-01b8-4634-bc0a-d4d186262366")
+		)
+		(pin "62"
+			(uuid "f927850d-fde3-405c-a4e6-176ca6dfd676")
+		)
+		(pin "66"
+			(uuid "59745e72-fcbc-4a2f-85fc-f366f92365a1")
+		)
+		(instances
+			(project "minimal_ad74416h_stack_adapter"
+				(path "/97890391-4941-4ea9-8a11-940f04bee9bb"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CONNECTORS_CLP-1xx-02-G-D-BE_DATA_BASE:J_CLP-133-02-G-D-BE")
+		(at 127 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62c89f4c-95dc-4285-b0a5-356303f87b66")
+		(property "Reference" "J2"
+			(at 127 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLP-133-02-G-D-BE"
+			(at 127 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "connector_footprints:CLP-133-02-G-D-BE"
+			(at 132.08 148.59 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/clp_sm.pdf?_gl=1*1y4jlr9*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczNjY4MDQ4OS4xNS4xLjE3MzY2ODEzNzcuNjAuMC4w"
+			(at 132.08 151.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  33 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
+			(at 132.08 153.67 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Color" "Black"
+			(at 132.08 156.21 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Contact Plating" "Tin"
+			(at 132.08 158.75 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current Rating (A)" "5.2"
+			(at 132.08 161.29 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CLP-133-02-G-D-BE"
+			(at 132.08 163.83 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 132.08 166.37 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Angle" "Vertical"
+			(at 132.08 168.91 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Surface Mount"
+			(at 132.08 171.45 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Number of Rows" "2"
+			(at 132.08 173.99 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "33"
+			(at 132.08 176.53 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pitch (mm)" "1.27"
+			(at 132.08 179.07 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "CLP-1xx-02-G-D-BE"
+			(at 132.08 181.61 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "J_CLP-133-02-G-D-BE"
+			(at 132.08 184.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CLP-133-02-G-D-BE"
+			(at 132.08 186.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 132.08 189.23 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "41"
+			(uuid "df1173bc-1c3d-4d57-b109-55eef0b759f4")
+		)
+		(pin "12"
+			(uuid "19ab91d2-c396-4fa3-8232-07189e1401e1")
+		)
+		(pin "6"
+			(uuid "6d385e39-1e04-4435-b5bf-87cb0d03b508")
+		)
+		(pin "22"
+			(uuid "bf1696ae-4ec1-468d-b646-73a4d9c52dad")
+		)
+		(pin "49"
+			(uuid "f1d0f8ff-dae8-48f4-afc0-883badcfbf29")
+		)
+		(pin "29"
+			(uuid "c2ad0bfe-ed48-4436-b94d-bc013ff94d1a")
+		)
+		(pin "5"
+			(uuid "fc6d85bd-f3ab-4062-bd31-791444099aae")
+		)
+		(pin "26"
+			(uuid "8be8c2e1-8a55-4705-a4a7-a6e4c3d933e4")
+		)
+		(pin "42"
+			(uuid "e1942b60-1738-49c3-b513-f5da1396c96e")
+		)
+		(pin "30"
+			(uuid "9ce350cf-7381-4f0d-9f9a-9131e76c9a73")
+		)
+		(pin "45"
+			(uuid "f167de17-6263-4f58-8f87-320cadce0cc6")
+		)
+		(pin "34"
+			(uuid "45e5a47c-29cf-42ce-9886-e826156b9f2f")
+		)
+		(pin "24"
+			(uuid "77f0aca1-31aa-4ad9-b130-e785a715b2a4")
+		)
+		(pin "54"
+			(uuid "1c637441-535b-49a4-a49c-7bbf0529d967")
+		)
+		(pin "58"
+			(uuid "0be65b7c-9de6-42e1-9ced-2472af763f89")
+		)
+		(pin "36"
+			(uuid "097b0aeb-04a7-4c11-abf5-8408c6fc716b")
+		)
+		(pin "15"
+			(uuid "26fd1eb2-dbd9-4a1f-a174-1bf4a1c53fa5")
+		)
+		(pin "11"
+			(uuid "7d4a53ad-ddfb-49b7-888f-e54ab8c74943")
+		)
+		(pin "17"
+			(uuid "a14175e1-bece-4fa7-8731-365d52a25ad4")
+		)
+		(pin "33"
+			(uuid "8666c209-35d7-408a-a59b-48e9befe2d22")
+		)
+		(pin "35"
+			(uuid "26e25a79-36d6-4ad1-8e71-5a448c8d0f58")
+		)
+		(pin "9"
+			(uuid "40404d00-343a-441e-acdc-e02a9d625a90")
+		)
+		(pin "51"
+			(uuid "b1a35566-4da9-4577-8a74-cb2bbedacf5c")
+		)
+		(pin "61"
+			(uuid "82383a05-7e2b-4886-acce-a0d5494a36ca")
+		)
+		(pin "59"
+			(uuid "361dc01a-4bf0-4f33-a53a-854018392a18")
+		)
+		(pin "57"
+			(uuid "aaab8f2d-ba98-49bd-9dd1-5747e20315eb")
+		)
+		(pin "23"
+			(uuid "0c895c16-107a-4c77-a508-a9f24bc9674f")
+		)
+		(pin "37"
+			(uuid "9f0738b5-9901-47b2-9eec-3c6ab4bcb9d2")
+		)
+		(pin "1"
+			(uuid "70a28f27-c891-4d02-adc9-439f0d9d3ccb")
+		)
+		(pin "43"
+			(uuid "a4c6668b-54b4-4ee8-a5e2-7a15c06878e6")
+		)
+		(pin "8"
+			(uuid "db935ac8-3866-4e4a-b41a-7240a907d69b")
+		)
+		(pin "65"
+			(uuid "8d66c095-74a4-4240-8c60-f36b79d7f2e5")
+		)
+		(pin "14"
+			(uuid "1124bd21-7eec-4588-9611-cfce8223f099")
+		)
+		(pin "53"
+			(uuid "131b1192-9f51-4172-99ef-7d25c2e7bbe2")
+		)
+		(pin "27"
+			(uuid "673daea9-3e12-4df6-9c1a-d3a37e048188")
+		)
+		(pin "31"
+			(uuid "b3798317-c652-4789-9aee-57daf22d6442")
+		)
+		(pin "16"
+			(uuid "cee0c128-551c-434c-922d-e0b7d71892ff")
+		)
+		(pin "13"
+			(uuid "1e66c292-8172-4d5a-81ba-ff2c7dafb727")
+		)
+		(pin "21"
+			(uuid "72410b3e-e125-4dc8-a82b-7646ba745367")
+		)
+		(pin "10"
+			(uuid "3443a0c9-d360-489f-93d7-92bd828cc14a")
+		)
+		(pin "55"
+			(uuid "bb71d45d-735e-4ef7-ad91-491b4352645c")
+		)
+		(pin "25"
+			(uuid "f3bb8bef-7466-4629-823b-602986bba72f")
+		)
+		(pin "47"
+			(uuid "f09e254e-59ef-4e6b-8acb-e6dd06e8f729")
+		)
+		(pin "7"
+			(uuid "75a7728a-9762-4b40-a715-093c38ba6ef0")
+		)
+		(pin "19"
+			(uuid "c0160c15-1bd7-4eeb-b55e-b9e4ee0b8d8a")
+		)
+		(pin "39"
+			(uuid "e7fb3e1f-c607-47e1-bd36-6ec57ad67c88")
+		)
+		(pin "63"
+			(uuid "c0f0c25a-66ca-463b-a3e9-d7b1d0608be9")
+		)
+		(pin "3"
+			(uuid "645379fa-bb78-438d-a115-b910725f8be8")
+		)
+		(pin "2"
+			(uuid "d1a2fc9a-4140-4e1a-9ad1-8f20ef13565f")
+		)
+		(pin "4"
+			(uuid "aa94dc0b-ebd4-4460-96eb-4abe90b8b039")
+		)
+		(pin "18"
+			(uuid "37c79928-f844-439f-b766-bcc04f2651ea")
+		)
+		(pin "20"
+			(uuid "5f2c0b9b-0284-4382-90ee-18265c7bdcc2")
+		)
+		(pin "32"
+			(uuid "472b6072-92ce-4bd3-9ff8-6544e2fd00b9")
+		)
+		(pin "38"
+			(uuid "988848f6-95e0-4501-907d-c1e3a06a6b5a")
+		)
+		(pin "28"
+			(uuid "f6d8c5fc-f845-4211-910b-e4d584a6407a")
+		)
+		(pin "40"
+			(uuid "0bcda871-924b-4ed2-b623-a7516911d618")
+		)
+		(pin "44"
+			(uuid "c055c1f6-5954-4c7c-9559-c3f507fc4a6d")
+		)
+		(pin "46"
+			(uuid "4a3ce8bf-0999-4448-9a98-3e0f986061db")
+		)
+		(pin "48"
+			(uuid "161da799-5358-4f59-8831-58195a32f8fb")
+		)
+		(pin "50"
+			(uuid "267ea5d8-4ac8-46ca-ad9f-dd22754f6cba")
+		)
+		(pin "52"
+			(uuid "32104e6e-5ab4-49b3-838a-8283577243ac")
+		)
+		(pin "56"
+			(uuid "4a8de763-a2a9-4381-956a-9f3cea43556d")
+		)
+		(pin "60"
+			(uuid "328fecb7-ae6c-444a-91d6-f94740fbd6dc")
+		)
+		(pin "64"
+			(uuid "88f3603c-0d61-4c90-b0b3-8f62e9d14b9b")
+		)
+		(pin "62"
+			(uuid "be8d085b-ddc2-4589-b49a-6f306ed0f9ba")
+		)
+		(pin "66"
+			(uuid "d7fc541f-51a2-463a-bf99-acdbb23c3444")
+		)
+		(instances
+			(project "minimal_ad74416h_stack_adapter"
+				(path "/97890391-4941-4ea9-8a11-940f04bee9bb"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CONNECTORS_CLP-1xx-02-G-D-BE_DATA_BASE:J_CLP-133-02-G-D-BE")
+		(at 203.2 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ed751f7-c485-4fc7-b0ef-5fca63252024")
+		(property "Reference" "J5"
+			(at 203.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLP-133-02-G-D-BE"
+			(at 203.2 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "connector_footprints:CLP-133-02-G-D-BE"
+			(at 208.28 148.59 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/clp_sm.pdf?_gl=1*1y4jlr9*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczNjY4MDQ4OS4xNS4xLjE3MzY2ODEzNzcuNjAuMC4w"
+			(at 208.28 151.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  33 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
+			(at 208.28 153.67 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Color" "Black"
+			(at 208.28 156.21 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Contact Plating" "Tin"
+			(at 208.28 158.75 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current Rating (A)" "5.2"
+			(at 208.28 161.29 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CLP-133-02-G-D-BE"
+			(at 208.28 163.83 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 208.28 166.37 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Angle" "Vertical"
+			(at 208.28 168.91 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Surface Mount"
+			(at 208.28 171.45 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Number of Rows" "2"
+			(at 208.28 173.99 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "33"
+			(at 208.28 176.53 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pitch (mm)" "1.27"
+			(at 208.28 179.07 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "CLP-1xx-02-G-D-BE"
+			(at 208.28 181.61 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "J_CLP-133-02-G-D-BE"
+			(at 208.28 184.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CLP-133-02-G-D-BE"
+			(at 208.28 186.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 208.28 189.23 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "41"
+			(uuid "514465be-f6b0-4ecc-af3f-67d21da9fbf2")
+		)
+		(pin "12"
+			(uuid "146a8dd5-ef1f-49ce-9830-213a3a9af5d6")
+		)
+		(pin "6"
+			(uuid "b6e65c7a-6744-4de3-a933-1f3e7f61e7c4")
+		)
+		(pin "22"
+			(uuid "22fcaaf0-6784-4d8d-8ddc-caa2164607ad")
+		)
+		(pin "49"
+			(uuid "92d30ab8-bf7c-467c-b69b-d4055cecb3e7")
+		)
+		(pin "29"
+			(uuid "3d84cb1a-de21-46f0-8150-addaa33a8ca9")
+		)
+		(pin "5"
+			(uuid "702fa94f-fd93-4923-aa9e-43aac0c95322")
+		)
+		(pin "26"
+			(uuid "e3323c1b-83c9-463c-9313-d9e24ad398b1")
+		)
+		(pin "42"
+			(uuid "35794b3c-83d7-4343-b49d-a8fd53250a36")
+		)
+		(pin "30"
+			(uuid "0174ac84-0872-4298-9c41-daedba1252d6")
+		)
+		(pin "45"
+			(uuid "b2bfd149-c32b-426e-96bf-d653ab417a93")
+		)
+		(pin "34"
+			(uuid "e9987d2e-231f-41f7-9aac-4c33eab6fe53")
+		)
+		(pin "24"
+			(uuid "7a9ade85-f158-498f-9c9d-3338f951fccf")
+		)
+		(pin "54"
+			(uuid "b8422850-518b-4fa1-8381-20c86a82e8f1")
+		)
+		(pin "58"
+			(uuid "2556a952-6694-4c3e-8d01-206237c09157")
+		)
+		(pin "36"
+			(uuid "71564b87-4eb6-46da-8512-ba44ec1ad0a6")
+		)
+		(pin "15"
+			(uuid "1a37c6f7-436c-478d-9671-3e1087e13052")
+		)
+		(pin "11"
+			(uuid "d8ecf7bb-0b63-4363-934b-4b7eefb86d38")
+		)
+		(pin "17"
+			(uuid "7c03a83b-62a8-4851-95ca-4de8fd1109cf")
+		)
+		(pin "33"
+			(uuid "3d1d0673-fa10-44e4-81f3-cf43fdfaf201")
+		)
+		(pin "35"
+			(uuid "e002558d-a4e4-419a-bab3-c3d0a640845e")
+		)
+		(pin "9"
+			(uuid "3f69ab6e-5e8a-4108-bd14-e2f5481f085b")
+		)
+		(pin "51"
+			(uuid "9a2a73ee-1ee1-4969-a91d-06cd98453623")
+		)
+		(pin "61"
+			(uuid "2dc3311c-3762-47a1-aece-2ba3f4bb386b")
+		)
+		(pin "59"
+			(uuid "a5ab284c-bad6-43c9-b594-4c612767af5e")
+		)
+		(pin "57"
+			(uuid "ec77976c-a165-4735-b848-ace615680756")
+		)
+		(pin "23"
+			(uuid "6d6470eb-ad92-4639-8886-340caf188f9e")
+		)
+		(pin "37"
+			(uuid "faaf4e33-a19d-4ff5-9eda-51f7665b242a")
+		)
+		(pin "1"
+			(uuid "0d63a68d-5f8b-42a3-a225-e980b4dea6fd")
+		)
+		(pin "43"
+			(uuid "e3568339-cb80-4fb4-8105-2c7783301df5")
+		)
+		(pin "8"
+			(uuid "6d3c0900-7853-40d9-83c8-082ac2ba9fa9")
+		)
+		(pin "65"
+			(uuid "eb5b67fc-e04e-433f-a808-904b3c48f57f")
+		)
+		(pin "14"
+			(uuid "487caee6-4e46-4b53-a543-ecea48a983b6")
+		)
+		(pin "53"
+			(uuid "37c11631-5157-49ab-a5c2-5e27a5929200")
+		)
+		(pin "27"
+			(uuid "ee1f05ef-87ec-4f8e-a06e-e24b57092c5a")
+		)
+		(pin "31"
+			(uuid "28a4b903-1dcd-4d91-a7b2-a7cf2430a95b")
+		)
+		(pin "16"
+			(uuid "9c7c6310-888c-4b3b-b8c5-b976bd6caf0d")
+		)
+		(pin "13"
+			(uuid "8309c37b-405a-45c6-a3e9-1e6f774728c8")
+		)
+		(pin "21"
+			(uuid "3069b731-9c66-41ff-945f-fc5735788f7b")
+		)
+		(pin "10"
+			(uuid "ead71d58-0f28-44c6-8108-78da019b0365")
+		)
+		(pin "55"
+			(uuid "5368f36b-a12d-411b-b114-b0bd65ebbd11")
+		)
+		(pin "25"
+			(uuid "35853f1e-cebf-4863-a74a-776884f80329")
+		)
+		(pin "47"
+			(uuid "8402940e-0ec1-4c88-941b-035bab935d1e")
+		)
+		(pin "7"
+			(uuid "86e88e82-e718-474e-a7d0-972c3f94754a")
+		)
+		(pin "19"
+			(uuid "9eeb3df3-d0c8-49e0-a251-d6d4cfe39d61")
+		)
+		(pin "39"
+			(uuid "9c055f60-1f24-4caa-8f32-e12eb671a025")
+		)
+		(pin "63"
+			(uuid "839549e2-ac09-44eb-a4a1-58b0a5df3224")
+		)
+		(pin "3"
+			(uuid "b94b2e8f-2e9f-45a3-bd4c-6eb44ace1034")
+		)
+		(pin "2"
+			(uuid "3a837195-cf56-4ee0-9d63-6a56e600c9f5")
+		)
+		(pin "4"
+			(uuid "117933b0-3014-441c-9b9f-835e077d8940")
+		)
+		(pin "18"
+			(uuid "4c8f004b-7b1c-4add-980a-66c19834413a")
+		)
+		(pin "20"
+			(uuid "a4cf97d2-dc3b-4f11-888f-7d037009b21b")
+		)
+		(pin "32"
+			(uuid "4a244abf-3c6c-4c79-807b-22eff8bb1e6a")
+		)
+		(pin "38"
+			(uuid "aeddf42a-7316-41cc-88d8-e1e7121cd9bf")
+		)
+		(pin "28"
+			(uuid "c4dc6880-bb14-444d-9ec5-54f42547dfac")
+		)
+		(pin "40"
+			(uuid "6f9070c0-9b31-4f2f-a7db-98a9a9eb47ad")
+		)
+		(pin "44"
+			(uuid "b47243be-77a9-48fa-99d2-80c69a7c5865")
+		)
+		(pin "46"
+			(uuid "9a3a8b77-8568-41cd-a5ec-24099d89fe3e")
+		)
+		(pin "48"
+			(uuid "a6a51ebb-95e5-4628-ab70-7e372e5a53a6")
+		)
+		(pin "50"
+			(uuid "2ebd876e-b4cf-4a21-9d19-b11cf5d07b16")
+		)
+		(pin "52"
+			(uuid "42112454-646e-47db-b512-ad6caa2576f7")
+		)
+		(pin "56"
+			(uuid "92d3987f-c6e8-4062-b22f-3d3172a324e9")
+		)
+		(pin "60"
+			(uuid "c6538b36-930d-41a9-b51d-c775fab50d9d")
+		)
+		(pin "64"
+			(uuid "4948272d-2f31-4977-9262-407ffc0b56e0")
+		)
+		(pin "62"
+			(uuid "11f1be5a-741d-4b2f-8970-d4b8390f0b48")
+		)
+		(pin "66"
+			(uuid "7726529a-9341-414e-8ecf-c3c740ec433e")
+		)
+		(instances
+			(project "minimal_ad74416h_stack_adapter"
+				(path "/97890391-4941-4ea9-8a11-940f04bee9bb"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CONNECTORS_CLP-1xx-02-G-D-BE_DATA_BASE:J_CLP-133-02-G-D-BE")
+		(at 101.6 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ec605fe-7083-411d-b5de-4f8ff35759c9")
+		(property "Reference" "J1"
+			(at 101.6 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CLP-133-02-G-D-BE"
+			(at 101.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "connector_footprints:CLP-133-02-G-D-BE"
+			(at 106.68 148.59 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/clp_sm.pdf?_gl=1*1y4jlr9*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczNjY4MDQ4OS4xNS4xLjE3MzY2ODEzNzcuNjAuMC4w"
+			(at 106.68 151.13 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Samtec CLP-1xx-02-G-D-BE series,  33 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Tin plated"
+			(at 106.68 153.67 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Color" "Black"
+			(at 106.68 156.21 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Contact Plating" "Tin"
+			(at 106.68 158.75 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Current Rating (A)" "5.2"
+			(at 106.68 161.29 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CLP-133-02-G-D-BE"
+			(at 106.68 163.83 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samtec"
+			(at 106.68 166.37 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Angle" "Vertical"
+			(at 106.68 168.91 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mounting Style" "Surface Mount"
+			(at 106.68 171.45 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Number of Rows" "2"
+			(at 106.68 173.99 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pin Count" "33"
+			(at 106.68 176.53 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Pitch (mm)" "1.27"
+			(at 106.68 179.07 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Series" "CLP-1xx-02-G-D-BE"
+			(at 106.68 181.61 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Symbol Name" "J_CLP-133-02-G-D-BE"
+			(at 106.68 184.15 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/CLP-133-02-G-D-BE"
+			(at 106.68 186.69 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rating (V)" "300"
+			(at 106.68 189.23 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "41"
+			(uuid "da50f686-b8f1-4b50-a8d8-53aa1823efc5")
+		)
+		(pin "12"
+			(uuid "296359d6-6f01-4f59-a22f-72f9fd9361bf")
+		)
+		(pin "6"
+			(uuid "29d1e9b4-f00e-4a8b-b636-f9438a9f569d")
+		)
+		(pin "22"
+			(uuid "b537b9da-9dd4-492b-a333-612b5548393d")
+		)
+		(pin "49"
+			(uuid "c35d0e9b-403d-49d0-b4b7-78b8b091f348")
+		)
+		(pin "29"
+			(uuid "56acfe75-2d1e-4220-a2b6-8ed1cf30e76b")
+		)
+		(pin "5"
+			(uuid "6c88a088-5d7b-4166-86ec-2411e0a52fb1")
+		)
+		(pin "26"
+			(uuid "f024e543-7d65-45fb-8bc1-6e766a70eb58")
+		)
+		(pin "42"
+			(uuid "d7de3f6c-cbaf-4f80-80bf-95176a0ac8b2")
+		)
+		(pin "30"
+			(uuid "f9070c83-45ce-4c59-89ca-442eae075ef0")
+		)
+		(pin "45"
+			(uuid "712a2473-c5a0-47f3-9058-a5e062df9038")
+		)
+		(pin "34"
+			(uuid "25cd80df-31b4-4496-a990-7d13f7939c27")
+		)
+		(pin "24"
+			(uuid "a7b21a30-cf25-4bdd-b58b-4adb4d16f4fb")
+		)
+		(pin "54"
+			(uuid "bcba0344-5a7f-49e9-8907-408e346c2349")
+		)
+		(pin "58"
+			(uuid "2e00526f-8c92-4838-9a53-13e1625ad598")
+		)
+		(pin "36"
+			(uuid "964969b6-9024-4489-a265-126ee1e563c8")
+		)
+		(pin "15"
+			(uuid "c6fbbff8-d4c6-4b20-a22b-3802f3243d5a")
+		)
+		(pin "11"
+			(uuid "ee36fdd3-3af3-44e2-8bef-3ab40377ff1f")
+		)
+		(pin "17"
+			(uuid "0dad10fa-8a73-441b-98fa-6b2f3e88a743")
+		)
+		(pin "33"
+			(uuid "be1b88ed-dfb5-469e-9388-2aba6545d56b")
+		)
+		(pin "35"
+			(uuid "077e9925-9be4-416b-a48f-0283c21691ef")
+		)
+		(pin "9"
+			(uuid "63a2e264-c37e-4e35-b282-abc380c17f38")
+		)
+		(pin "51"
+			(uuid "52d7dd74-ead0-4f8f-bc3a-2e010143d459")
+		)
+		(pin "61"
+			(uuid "12795aa8-e66f-419b-8373-b51209051d9d")
+		)
+		(pin "59"
+			(uuid "5f6d37f5-884e-44db-8bad-1e8c1dd57a9f")
+		)
+		(pin "57"
+			(uuid "4c19f923-deec-4119-8bcb-30471e7655e5")
+		)
+		(pin "23"
+			(uuid "fced8704-4798-4b6e-848b-2a7da0e12d6d")
+		)
+		(pin "37"
+			(uuid "474316f3-e646-437d-8192-e9f7651d3013")
+		)
+		(pin "1"
+			(uuid "1400f3e0-ded3-4080-b274-efed7b578af8")
+		)
+		(pin "43"
+			(uuid "89966c00-379b-4836-bacf-c225658a711c")
+		)
+		(pin "8"
+			(uuid "9fe27f54-4da3-48a4-94dc-69b802189a14")
+		)
+		(pin "65"
+			(uuid "eff3ace5-6013-4d08-9380-8db7632dffe8")
+		)
+		(pin "14"
+			(uuid "a97872d1-2c82-4597-9579-c5e0876822fd")
+		)
+		(pin "53"
+			(uuid "58e6dfb5-50c0-4402-9d8f-8a2a215acb8f")
+		)
+		(pin "27"
+			(uuid "11af9a47-ace1-49fe-a974-8c58347c0022")
+		)
+		(pin "31"
+			(uuid "d596d2fc-579e-4ff8-8724-656bcb4e5af9")
+		)
+		(pin "16"
+			(uuid "fae340f9-e9c3-46e2-9097-23ee10d298f3")
+		)
+		(pin "13"
+			(uuid "1baf2672-97e5-424a-9c34-9ad00f364778")
+		)
+		(pin "21"
+			(uuid "561dc4a2-522f-4d7b-a763-835ea8824030")
+		)
+		(pin "10"
+			(uuid "7c9e5e34-3b3d-4925-9647-d54e8594b7cd")
+		)
+		(pin "55"
+			(uuid "c6632d38-92da-4cad-8364-cd27f6e16eaa")
+		)
+		(pin "25"
+			(uuid "c2875230-bfaa-451a-8875-2b0242f42ae0")
+		)
+		(pin "47"
+			(uuid "40c71526-c152-4777-b6b0-40bbb81d204f")
+		)
+		(pin "7"
+			(uuid "cd12ef7b-b477-4cf7-861e-04ec5aafb1ca")
+		)
+		(pin "19"
+			(uuid "1681d413-2b71-426e-9dc2-1aa480c49252")
+		)
+		(pin "39"
+			(uuid "2e536a95-992d-493b-8144-9c00deb78197")
+		)
+		(pin "63"
+			(uuid "2297fd36-f8df-4988-8855-3ef63a0049c7")
+		)
+		(pin "3"
+			(uuid "6d5c3664-32f7-4f79-9060-ee5ca2870632")
+		)
+		(pin "2"
+			(uuid "7c03214f-20ed-4d31-9336-9df780bb8678")
+		)
+		(pin "4"
+			(uuid "2195acd7-1dde-4e62-9d08-ebc3b551ea09")
+		)
+		(pin "18"
+			(uuid "0ab7a98f-3f6f-45b1-8b70-d74c22d0c2d0")
+		)
+		(pin "20"
+			(uuid "d710a17a-8e76-4aab-9d54-d552035ed601")
+		)
+		(pin "32"
+			(uuid "b7cd4723-d7e6-4d9d-b86f-14e2553dc322")
+		)
+		(pin "38"
+			(uuid "88849ae7-f637-4e5e-91ab-85a8258c4cb2")
+		)
+		(pin "28"
+			(uuid "173601a7-d150-42ba-a359-a6844b99ef5a")
+		)
+		(pin "40"
+			(uuid "218f3402-3db9-492b-b342-321a0bd64441")
+		)
+		(pin "44"
+			(uuid "c25a12d8-e7fa-4c81-a116-22fb284941f3")
+		)
+		(pin "46"
+			(uuid "04371649-dfe2-4fc3-a8c1-5dc9234085f7")
+		)
+		(pin "48"
+			(uuid "dd8fcb65-99bd-47db-866b-11b5fdaa80be")
+		)
+		(pin "50"
+			(uuid "62c20310-d1a4-4c40-ae27-7fb801557849")
+		)
+		(pin "52"
+			(uuid "57d452a8-e2cd-4ee9-84a5-b6d4f35ed853")
+		)
+		(pin "56"
+			(uuid "d36acdcc-b058-48b3-bc1d-fda73c4b8ddf")
+		)
+		(pin "60"
+			(uuid "f640adc0-22ed-4801-8978-a7ec20ca78d1")
+		)
+		(pin "64"
+			(uuid "3d6ac8c7-16e6-4dd3-8838-54977e7cd3e6")
+		)
+		(pin "62"
+			(uuid "e01016b5-1fb0-4666-b816-d51282038140")
+		)
+		(pin "66"
+			(uuid "80157409-077b-4764-b8a0-1d3203c8f36e")
+		)
+		(instances
+			(project ""
+				(path "/97890391-4941-4ea9-8a11-940f04bee9bb"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
