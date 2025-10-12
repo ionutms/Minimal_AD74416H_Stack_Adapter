@@ -109,16 +109,18 @@ jobs:
           echo "top_view_pan=\"0,0,0\"" >> $GITHUB_OUTPUT
           echo "bottom_view_zoom_factor=1.0" >> $GITHUB_OUTPUT
           echo "bottom_view_pan=\"0,0,0\"" >> $GITHUB_OUTPUT
-          echo "front_view_zoom_factor=1.0" >> $GITHUB_OUTPUT
-          echo "front_view_pan=\"0,0,0\"" >> $GITHUB_OUTPUT
-          echo "back_view_zoom_factor=1.0" >> $GITHUB_OUTPUT
-          echo "back_view_pan=\"0,0,0\"" >> $GITHUB_OUTPUT
           echo "left_view_zoom_factor=1.0" >> $GITHUB_OUTPUT
           echo "left_view_rotate=\"0,90,0\"" >> $GITHUB_OUTPUT
           echo "left_view_pan=\"0,0,0\"" >> $GITHUB_OUTPUT
           echo "right_view_zoom_factor=1.0" >> $GITHUB_OUTPUT
           echo "right_view_rotate=\"0,-90,0\"" >> $GITHUB_OUTPUT
           echo "right_view_pan=\"0,0,0\"" >> $GITHUB_OUTPUT
+          echo "front_view_zoom_factor=1.0" >> $GITHUB_OUTPUT
+          echo "front_view_rotate=\"0,0,0\"" >> $GITHUB_OUTPUT
+          echo "front_view_pan=\"0,0,0\"" >> $GITHUB_OUTPUT
+          echo "back_view_zoom_factor=1.0" >> $GITHUB_OUTPUT
+          echo "back_view_rotate=\"0,180,0\"" >> $GITHUB_OUTPUT
+          echo "back_view_pan=\"0,0,0\"" >> $GITHUB_OUTPUT
 
           
           # Extract parameters from config file if it exists
@@ -156,38 +158,6 @@ jobs:
             BOTTOM_VIEW_PAN=$(grep 'bottom_view_pan:' .github/kicad-config.yml | sed 's/bottom_view_pan: *//' | tr -d '\n\r')
             if [ ! -z "$BOTTOM_VIEW_PAN" ]; then
               echo "bottom_view_pan=$BOTTOM_VIEW_PAN" >> $GITHUB_OUTPUT
-            fi
-
-            # Extract front view parameters
-            FRONT_VIEW_ZOOM_FACTOR=$(grep 'front_view_zoom_factor:' .github/kicad-config.yml | sed 's/front_view_zoom_factor: *//' | tr -d '\n\r')
-            if [ ! -z "$FRONT_VIEW_ZOOM_FACTOR" ]; then
-              echo "front_view_zoom_factor=$FRONT_VIEW_ZOOM_FACTOR" >> $GITHUB_OUTPUT
-            else
-              # Default to top view parameters if not specified
-              echo "front_view_zoom_factor=$TOP_VIEW_ZOOM_FACTOR" >> $GITHUB_OUTPUT
-            fi
-            FRONT_VIEW_PAN=$(grep 'front_view_pan:' .github/kicad-config.yml | sed 's/front_view_pan: *//' | tr -d '\n\r')
-            if [ ! -z "$FRONT_VIEW_PAN" ]; then
-              echo "front_view_pan=$FRONT_VIEW_PAN" >> $GITHUB_OUTPUT
-            else
-              # Default to top view parameters if not specified
-              echo "front_view_pan=$TOP_VIEW_PAN" >> $GITHUB_OUTPUT
-            fi
-
-            # Extract back view parameters
-            BACK_VIEW_ZOOM_FACTOR=$(grep 'back_view_zoom_factor:' .github/kicad-config.yml | sed 's/back_view_zoom_factor: *//' | tr -d '\n\r')
-            if [ ! -z "$BACK_VIEW_ZOOM_FACTOR" ]; then
-              echo "back_view_zoom_factor=$BACK_VIEW_ZOOM_FACTOR" >> $GITHUB_OUTPUT
-            else
-              # Default to bottom view parameters if not specified
-              echo "back_view_zoom_factor=$BOTTOM_VIEW_ZOOM_FACTOR" >> $GITHUB_OUTPUT
-            fi
-            BACK_VIEW_PAN=$(grep 'back_view_pan:' .github/kicad-config.yml | sed 's/back_view_pan: *//' | tr -d '\n\r')
-            if [ ! -z "$BACK_VIEW_PAN" ]; then
-              echo "back_view_pan=$BACK_VIEW_PAN" >> $GITHUB_OUTPUT
-            else
-              # Default to bottom view parameters if not specified
-              echo "back_view_pan=$BOTTOM_VIEW_PAN" >> $GITHUB_OUTPUT
             fi
             
             # Extract rotate values - preserve quotes but trim whitespace
@@ -237,6 +207,42 @@ jobs:
             else
               echo "right_view_pan=$SIDE_VIEW_PAN" >> $GITHUB_OUTPUT
             fi
+
+            # Extract front view parameters
+            FRONT_VIEW_ZOOM_FACTOR=$(grep 'front_view_zoom_factor:' .github/kicad-config.yml | sed 's/front_view_zoom_factor: *//' | tr -d '\n\r')
+            if [ ! -z "$FRONT_VIEW_ZOOM_FACTOR" ]; then
+              echo "front_view_zoom_factor=$FRONT_VIEW_ZOOM_FACTOR" >> $GITHUB_OUTPUT
+            else
+              echo "front_view_zoom_factor=$SIDE_VIEW_ZOOM_FACTOR" >> $GITHUB_OUTPUT
+            fi
+            FRONT_VIEW_ROTATE=$(grep 'front_view_rotate:' .github/kicad-config.yml | sed 's/front_view_rotate: *//' | tr -d '\n\r')
+            if [ ! -z "$FRONT_VIEW_ROTATE" ]; then
+              echo "front_view_rotate=$FRONT_VIEW_ROTATE" >> $GITHUB_OUTPUT
+            fi
+            FRONT_VIEW_PAN=$(grep 'front_view_pan:' .github/kicad-config.yml | sed 's/front_view_pan: *//' | tr -d '\n\r')
+            if [ ! -z "$FRONT_VIEW_PAN" ]; then
+              echo "front_view_pan=$FRONT_VIEW_PAN" >> $GITHUB_OUTPUT
+            else
+              echo "front_view_pan=$SIDE_VIEW_PAN" >> $GITHUB_OUTPUT
+            fi
+
+            # Extract back view parameters
+            BACK_VIEW_ZOOM_FACTOR=$(grep 'back_view_zoom_factor:' .github/kicad-config.yml | sed 's/back_view_zoom_factor: *//' | tr -d '\n\r')
+            if [ ! -z "$BACK_VIEW_ZOOM_FACTOR" ]; then
+              echo "back_view_zoom_factor=$BACK_VIEW_ZOOM_FACTOR" >> $GITHUB_OUTPUT
+            else
+              echo "back_view_zoom_factor=$SIDE_VIEW_ZOOM_FACTOR" >> $GITHUB_OUTPUT
+            fi
+            BACK_VIEW_ROTATE=$(grep 'back_view_rotate:' .github/kicad-config.yml | sed 's/back_view_rotate: *//' | tr -d '\n\r')
+            if [ ! -z "$BACK_VIEW_ROTATE" ]; then
+              echo "back_view_rotate=$BACK_VIEW_ROTATE" >> $GITHUB_OUTPUT
+            fi
+            BACK_VIEW_PAN=$(grep 'back_view_pan:' .github/kicad-config.yml | sed 's/back_view_pan: *//' | tr -d '\n\r')
+            if [ ! -z "$BACK_VIEW_PAN" ]; then
+              echo "back_view_pan=$BACK_VIEW_PAN" >> $GITHUB_OUTPUT
+            else
+              echo "back_view_pan=$SIDE_VIEW_PAN" >> $GITHUB_OUTPUT
+            fi
           fi
 
       # Pull Docker image before using it
@@ -283,26 +289,14 @@ jobs:
                 cp /tmp/schematic.pdf \"/kicad_project/$PROJECT_NAME/docs/schematics/${PROJECT_NAME}_schematics.pdf\"
               fi && \
 
-              # Generate PCB render front view if PCB found
+              # Generate PCB render top view if PCB found
               if [ '${{ steps.find-files.outputs.pcb_found }}' == 'true' ]; then
                 kicad-cli pcb render /kicad_project/${{ steps.find-files.outputs.pcb_file }} \
-                  -o "/kicad_project/$PROJECT_NAME/docs/pictures/2_${PROJECT_NAME}_front.png" \
+                  -o "/kicad_project/$PROJECT_NAME/docs/pictures/2_${PROJECT_NAME}_top.png" \
                   --background transparent \
                   --quality high \
-                  --side front \
-                  --pan ${{ steps.kicad-config.outputs.front_view_pan }} \
-                  --zoom ${{ steps.kicad-config.outputs.front_view_zoom_factor }}
-              fi && \
-
-              # Generate PCB render back view if PCB found
-              if [ '${{ steps.find-files.outputs.pcb_found }}' == 'true' ]; then
-                kicad-cli pcb render /kicad_project/${{ steps.find-files.outputs.pcb_file }} \
-                  -o "/kicad_project/$PROJECT_NAME/docs/pictures/3_${PROJECT_NAME}_back.png" \
-                  --background transparent \
-                  --quality high \
-                  --side back \
-                  --pan ${{ steps.kicad-config.outputs.back_view_pan }} \
-                  --zoom ${{ steps.kicad-config.outputs.back_view_zoom_factor }}
+                  --pan ${{ steps.kicad-config.outputs.top_view_pan }} \
+                  --zoom ${{ steps.kicad-config.outputs.top_view_zoom_factor }}
               fi && \
 
               # Generate PCB render side view if PCB found
@@ -314,6 +308,17 @@ jobs:
                   --rotate ${{ steps.kicad-config.outputs.side_view_rotate }} \
                   --pan ${{ steps.kicad-config.outputs.side_view_pan }} \
                   --zoom ${{ steps.kicad-config.outputs.side_view_zoom_factor }}
+              fi && \
+
+              # Generate PCB render bottom view if PCB found
+              if [ '${{ steps.find-files.outputs.pcb_found }}' == 'true' ]; then
+                kicad-cli pcb render /kicad_project/${{ steps.find-files.outputs.pcb_file }} \
+                  -o "/kicad_project/$PROJECT_NAME/docs/pictures/3_${PROJECT_NAME}_bottom.png" \
+                  --background transparent \
+                  --quality high \
+                  --side bottom \
+                  --pan ${{ steps.kicad-config.outputs.bottom_view_pan }} \
+                  --zoom ${{ steps.kicad-config.outputs.bottom_view_zoom_factor }}
               fi && \
 
               # Generate PCB render left side view if PCB found
@@ -336,6 +341,28 @@ jobs:
                   --side right \
                   --pan ${{ steps.kicad-config.outputs.right_view_pan }} \
                   --zoom ${{ steps.kicad-config.outputs.right_view_zoom_factor }}
+              fi && \
+
+              # Generate PCB render front view if PCB found
+              if [ '${{ steps.find-files.outputs.pcb_found }}' == 'true' ]; then
+                kicad-cli pcb render /kicad_project/${{ steps.find-files.outputs.pcb_file }} \
+                  -o "/kicad_project/$PROJECT_NAME/docs/pictures/6_${PROJECT_NAME}_front.png" \
+                  --background transparent \
+                  --quality high \
+                  --rotate ${{ steps.kicad-config.outputs.front_view_rotate }} \
+                  --pan ${{ steps.kicad-config.outputs.front_view_pan }} \
+                  --zoom ${{ steps.kicad-config.outputs.front_view_zoom_factor }}
+              fi && \
+
+              # Generate PCB render back view if PCB found
+              if [ '${{ steps.find-files.outputs.pcb_found }}' == 'true' ]; then
+                kicad-cli pcb render /kicad_project/${{ steps.find-files.outputs.pcb_file }} \
+                  -o "/kicad_project/$PROJECT_NAME/docs/pictures/7_${PROJECT_NAME}_back.png" \
+                  --background transparent \
+                  --quality high \
+                  --rotate ${{ steps.kicad-config.outputs.back_view_rotate }} \
+                  --pan ${{ steps.kicad-config.outputs.back_view_pan }} \
+                  --zoom ${{ steps.kicad-config.outputs.back_view_zoom_factor }}
               fi && \
 
               # Generate Interactive HTML BOM if PCB found - using Docker image's wrapper
