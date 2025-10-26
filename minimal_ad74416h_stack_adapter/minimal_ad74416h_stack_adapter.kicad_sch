@@ -1494,7 +1494,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CONNECTORS_FW-xx-03-G-D-085-155_DATA_BASE:J_FW-35-03-G-D-085-155"
+		(symbol "CONNECTORS_FTSH-1xx-04-L-D_DATA_BASE:J_FTSH-135-04-L-D"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1510,7 +1510,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "FW-35-03-G-D-085-155"
+			(property "Value" "FTSH-135-04-L-D"
 				(at 5.08 -46.99 0)
 				(effects
 					(font
@@ -1519,7 +1519,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "connector_footprints:FW-35-03-G-D-085-155"
+			(property "Footprint" "connector_footprints:FTSH-135-04-L-D"
 				(at 5.08 -49.53 0)
 				(show_name)
 				(effects
@@ -1530,7 +1530,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf?_gl=1*1xtxv9c*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczODE2NTI0NS4zMi4xLjE3MzgxNjU1NjMuNjAuMC4w"
+			(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/ftsh_th.pdf?_gl=1*bi311t*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczNjk0NTEyMi4yNi4xLjE3MzY5NDU1NjAuNjAuMC4w"
 				(at 5.08 -52.07 0)
 				(show_name)
 				(effects
@@ -1541,7 +1541,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Samtec FW-xx-03-G-D-085-155 series,  35 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
+			(property "Description" "Samtec FTSH-1xx-04-L-D series,  35 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Through Hole,  Tin plated"
 				(at 5.08 -54.61 0)
 				(show_name)
 				(effects
@@ -1563,7 +1563,7 @@
 					(hide yes)
 				)
 			)
-			(property "Contact Plating" "Gold"
+			(property "Contact Plating" "Tin"
 				(at 5.08 -59.69 0)
 				(show_name)
 				(effects
@@ -1585,7 +1585,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "FW-35-03-G-D-085-155"
+			(property "MPN" "FTSH-135-04-L-D"
 				(at 5.08 -64.77 0)
 				(show_name)
 				(effects
@@ -1618,7 +1618,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mounting Style" "Surface Mount"
+			(property "Mounting Style" "Through Hole"
 				(at 5.08 -72.39 0)
 				(show_name)
 				(effects
@@ -1662,7 +1662,7 @@
 					(hide yes)
 				)
 			)
-			(property "Series" "FW-xx-03-G-D-085-155"
+			(property "Series" "FTSH-1xx-04-L-D"
 				(at 5.08 -82.55 0)
 				(show_name)
 				(effects
@@ -1673,7 +1673,7 @@
 					(hide yes)
 				)
 			)
-			(property "Symbol Name" "J_FW-35-03-G-D-085-155"
+			(property "Symbol Name" "J_FTSH-135-04-L-D"
 				(at 5.08 -85.09 0)
 				(show_name)
 				(effects
@@ -1684,7 +1684,7 @@
 					(hide yes)
 				)
 			)
-			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-35-03-G-D-085-155"
+			(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FTSH-135-04-L-D"
 				(at 5.08 -87.63 0)
 				(show_name)
 				(effects
@@ -1706,7 +1706,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "J_FW-35-03-G-D-085-155_0_0"
+			(symbol "J_FTSH-135-04-L-D_0_0"
 				(pin unspecified line
 					(at -5.08 43.18 0)
 					(length 2.54)
@@ -2968,7 +2968,7 @@
 					)
 				)
 			)
-			(symbol "J_FW-35-03-G-D-085-155_1_0"
+			(symbol "J_FTSH-135-04-L-D_1_0"
 				(rectangle
 					(start -2.54 45.72)
 					(end 2.54 -45.72)
@@ -15975,7 +15975,7 @@
 		)
 	)
 	(symbol
-		(lib_id "CONNECTORS_FW-xx-03-G-D-085-155_DATA_BASE:J_FW-35-03-G-D-085-155")
+		(lib_id "CONNECTORS_FTSH-1xx-04-L-D_DATA_BASE:J_FTSH-135-04-L-D")
 		(at 101.6 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15992,7 +15992,7 @@
 				)
 			)
 		)
-		(property "Value" "FW-35-03-G-D-085-155"
+		(property "Value" "FTSH-135-04-L-D"
 			(at 101.6 106.68 0)
 			(effects
 				(font
@@ -16000,7 +16000,7 @@
 				)
 			)
 		)
-		(property "Footprint" "connector_footprints:FW-35-03-G-D-085-155"
+		(property "Footprint" "connector_footprints:FTSH-135-04-L-D"
 			(at 106.68 204.47 0)
 			(show_name yes)
 			(effects
@@ -16011,7 +16011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/fw_sm.pdf?_gl=1*1xtxv9c*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczODE2NTI0NS4zMi4xLjE3MzgxNjU1NjMuNjAuMC4w"
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/ftsh_th.pdf?_gl=1*bi311t*_gcl_au*MTM0MTYyNTQ5MS4xNzM2MDk5MTUz*_ga*MTYxNDYyMTQ0Mi4xNzM2MDk5MTUz*_ga_3KFNZC07WW*MTczNjk0NTEyMi4yNi4xLjE3MzY5NDU1NjAuNjAuMC4w"
 			(at 106.68 207.01 0)
 			(show_name yes)
 			(effects
@@ -16022,7 +16022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Samtec FW-xx-03-G-D-085-155 series,  35 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Surface Mount,  Gold plated"
+		(property "Description" "Samtec FTSH-1xx-04-L-D series,  35 positions connector,  1.27 mm pitch,  Black,  Vertical mounting,  5.2 A,  300 V,  Through Hole,  Tin plated"
 			(at 106.68 209.55 0)
 			(show_name yes)
 			(effects
@@ -16035,6 +16035,7 @@
 		)
 		(property "Color" "Black"
 			(at 106.68 212.09 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16043,8 +16044,9 @@
 				(hide yes)
 			)
 		)
-		(property "Contact Plating" "Gold"
+		(property "Contact Plating" "Tin"
 			(at 106.68 214.63 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16055,6 +16057,7 @@
 		)
 		(property "Current Rating (A)" "5.2"
 			(at 106.68 217.17 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16063,8 +16066,9 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FW-35-03-G-D-085-155"
+		(property "MPN" "FTSH-135-04-L-D"
 			(at 106.68 219.71 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16075,6 +16079,7 @@
 		)
 		(property "Manufacturer" "Samtec"
 			(at 106.68 222.25 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16085,6 +16090,7 @@
 		)
 		(property "Mounting Angle" "Vertical"
 			(at 106.68 224.79 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16093,8 +16099,9 @@
 				(hide yes)
 			)
 		)
-		(property "Mounting Style" "Surface Mount"
+		(property "Mounting Style" "Through Hole"
 			(at 106.68 227.33 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16105,6 +16112,7 @@
 		)
 		(property "Number of Rows" "2"
 			(at 106.68 229.87 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16115,6 +16123,7 @@
 		)
 		(property "Pin Count" "35"
 			(at 106.68 232.41 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16125,6 +16134,7 @@
 		)
 		(property "Pitch (mm)" "1.27"
 			(at 106.68 234.95 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16133,8 +16143,9 @@
 				(hide yes)
 			)
 		)
-		(property "Series" "FW-xx-03-G-D-085-155"
+		(property "Series" "FTSH-1xx-04-L-D"
 			(at 106.68 237.49 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16143,8 +16154,9 @@
 				(hide yes)
 			)
 		)
-		(property "Symbol Name" "J_FW-35-03-G-D-085-155"
+		(property "Symbol Name" "J_FTSH-135-04-L-D"
 			(at 106.68 240.03 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16153,8 +16165,9 @@
 				(hide yes)
 			)
 		)
-		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FW-35-03-G-D-085-155"
+		(property "Trustedparts Search" "https://www.trustedparts.com/en/search/FTSH-135-04-L-D"
 			(at 106.68 242.57 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16165,6 +16178,7 @@
 		)
 		(property "Voltage Rating (V)" "300"
 			(at 106.68 245.11 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
